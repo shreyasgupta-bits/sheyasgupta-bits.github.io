@@ -14,4 +14,6 @@ I am currently a second year student majoring in *Computer Science*.
 
 ## Day 2
 
-1. 
+1. Downloaded hugo which is a website creating tool and experimented on it by creating my first website.
+2. Tried downloading asciinema but since Im running windows, was unable to do so. A possible solution as proposed by my mentor was to use a VM with linux.
+3. Downloaded Virtualbox, an Oracle VMware and learned how to install linux on it.

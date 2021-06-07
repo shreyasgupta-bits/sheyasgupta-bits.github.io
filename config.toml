@@ -1,0 +1,17 @@
+baseURL = "https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/"
+languageCode = "en-us"
+title = "Shreyas Gupta's PS Journey"
+theme = "contrast-hugo"
+author = "Shreyas Gupta"
+
+[params]
+  minimal = false
+  excerpts = false
+  description = "my blog"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10

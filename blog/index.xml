@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Shreyas Gupta&#39;s PS Journey</title>
+    <link>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/</link>
+    <description>Recent content in Blogs on Shreyas Gupta&#39;s PS Journey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Jun 2021 21:02:13 +0530</lastBuildDate><atom:link href="https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Day 7</title>
+      <link>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day7/</link>
+      <pubDate>Mon, 07 Jun 2021 21:02:13 +0530</pubDate>
+      
+      <guid>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day7/</guid>
+      <description> At last understood how to deploy a hugo static site using GitHub action after finding CircleCI slightly complicated. Finally deployed my site!!!  </description>
+    </item>
+    
+    <item>
+      <title>Day 6</title>
+      <link>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day6/</link>
+      <pubDate>Sat, 05 Jun 2021 21:02:09 +0530</pubDate>
+      
+      <guid>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day6/</guid>
+      <description> Made a CircleCI account and was learning about CI/CD (Continous integration, Continous Deployment). Tried using CircleCI.  </description>
+    </item>
+    
+    <item>
+      <title>Day 5</title>
+      <link>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day5/</link>
+      <pubDate>Fri, 04 Jun 2021 21:02:06 +0530</pubDate>
+      
+      <guid>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day5/</guid>
+      <description> Was tinkering with Hugo and made my first site and hosted it locally. Basically just figuring out how hugo works.  </description>
+    </item>
+    
+    <item>
+      <title>Day 4</title>
+      <link>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day4/</link>
+      <pubDate>Thu, 03 Jun 2021 21:01:16 +0530</pubDate>
+      
+      <guid>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day4/</guid>
+      <description> Unforntunately was sick since I got the vaccine the previous day and had a very bad fever, so was unable to do any work.  </description>
+    </item>
+    
+    <item>
+      <title>Day 3</title>
+      <link>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day3/</link>
+      <pubDate>Wed, 02 Jun 2021 21:00:45 +0530</pubDate>
+      
+      <guid>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day3/</guid>
+      <description> Installed Linux: Ubuntu ver 20.04. and set it up. Faced some issues with Ubuntu and sorted them while learning about a few terminal commands. Installed asciinema and hugo on the VM. Installed hugo.  </description>
+    </item>
+    
+    <item>
+      <title>Day 2</title>
+      <link>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day2/</link>
+      <pubDate>Tue, 01 Jun 2021 20:54:42 +0530</pubDate>
+      
+      <guid>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day2/</guid>
+      <description> Downloaded hugo which is a website creating tool and experimented on it by creating my first website. Tried downloading asciinema but since Im running windows, was unable to do so. A possible solution as proposed by my mentor was to use a VM with linux. Downloaded Virtualbox, an Oracle VMware and understood how a VM works.  </description>
+    </item>
+    
+    <item>
+      <title>Day 1</title>
+      <link>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day1/</link>
+      <pubDate>Mon, 31 May 2021 20:54:17 +0530</pubDate>
+      
+      <guid>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day1/</guid>
+      <description> Installed Git and learnt about version control systems. Learnt about how to write in markdown. Started a repo and committed a markdown page. Pushed an html file but had an issue with deploying a github page which displayed my markdown page as my html file could be viewed. Fixed this issue by first deleting the html file and then launching a github page.  </description>
+    </item>
+    
+  </channel>
+</rss>

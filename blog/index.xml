@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Shreyas Gupta&#39;s PS Journey</title>
+    <link>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/</link>
+    <description>Recent content in Blogs on Shreyas Gupta&#39;s PS Journey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Jun 2021 20:07:46 +0530</lastBuildDate><atom:link href="https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Day 13</title>
+      <link>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day13/</link>
+      <pubDate>Mon, 14 Jun 2021 20:07:46 +0530</pubDate>
+      
+      <guid>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day13/</guid>
+      <description>I learned about what DevOps is; it is union of the siloed department of development and operations.
+It is useful in helping to give constant updates to your app and managing its deployment.
+I read about docker and how it is a tool which enables to develop and run apps in containers.
+I read about containers and how they are different from VMs in the sense that VM is the virtualization of the hardware, while containers are virtualizations of the OS and how their structure is just different.</description>
+    </item>
+    
+    <item>
+      <title>Day 12</title>
+      <link>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day12/</link>
+      <pubDate>Sat, 12 Jun 2021 20:07:44 +0530</pubDate>
+      
+      <guid>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day12/</guid>
+      <description>I did not do much work today.</description>
+    </item>
+    
+    <item>
+      <title>Day 11</title>
+      <link>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day11/</link>
+      <pubDate>Fri, 11 Jun 2021 20:07:39 +0530</pubDate>
+      
+      <guid>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day11/</guid>
+      <description>Learned about various other git commands such as git rebase, merge and also about branching in git.
+Learned about the basic terminal commands in linux to help ease my comfort in working in the linux environment.</description>
+    </item>
+    
+    <item>
+      <title>Day 10</title>
+      <link>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day10/</link>
+      <pubDate>Thu, 10 Jun 2021 20:07:34 +0530</pubDate>
+      
+      <guid>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day10/</guid>
+      <description>Learned yaml language through this site.\
+Explored the GitHub Action documentation.</description>
+    </item>
+    
+    <item>
+      <title>Day 9</title>
+      <link>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day9/</link>
+      <pubDate>Wed, 09 Jun 2021 20:07:05 +0530</pubDate>
+      
+      <guid>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day9/</guid>
+      <description>Tried to solve the error 255 I faced during when GitHub Action was building my site.
+I tried to fix this by adding the config.toml file to my repo, bu then faced this error.
+To solve this error, I read the documentation of the build from where I got my workflow.</description>
+    </item>
+    
+    <item>
+      <title>Day 8</title>
+      <link>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day8/</link>
+      <pubDate>Tue, 08 Jun 2021 20:54:45 +0530</pubDate>
+      
+      <guid>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day8/</guid>
+      <description>Studied the syntax of writing a workflow in GitHub Action.
+Understood the purpose of run, uses and events.</description>
+    </item>
+    
+    <item>
+      <title>Day 7</title>
+      <link>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day7/</link>
+      <pubDate>Mon, 07 Jun 2021 21:02:13 +0530</pubDate>
+      
+      <guid>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day7/</guid>
+      <description> At last understood how to deploy a hugo static site using GitHub action after finding CircleCI slightly complicated. Finally deployed my site!!!  </description>
+    </item>
+    
+    <item>
+      <title>Day 6</title>
+      <link>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day6/</link>
+      <pubDate>Sat, 05 Jun 2021 21:02:09 +0530</pubDate>
+      
+      <guid>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day6/</guid>
+      <description> Made a CircleCI account and was learning about CI/CD (Continous integration, Continous Deployment). Tried using CircleCI.  </description>
+    </item>
+    
+    <item>
+      <title>Day 5</title>
+      <link>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day5/</link>
+      <pubDate>Fri, 04 Jun 2021 21:02:06 +0530</pubDate>
+      
+      <guid>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day5/</guid>
+      <description> Was tinkering with Hugo and made my first site and hosted it locally. Basically just figuring out how hugo works.  </description>
+    </item>
+    
+    <item>
+      <title>Day 4</title>
+      <link>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day4/</link>
+      <pubDate>Thu, 03 Jun 2021 21:01:16 +0530</pubDate>
+      
+      <guid>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day4/</guid>
+      <description> Unforntunately was sick since I got the vaccine the previous day and had a very bad fever, so was unable to do any work.  </description>
+    </item>
+    
+    <item>
+      <title>Day 3</title>
+      <link>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day3/</link>
+      <pubDate>Wed, 02 Jun 2021 21:00:45 +0530</pubDate>
+      
+      <guid>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day3/</guid>
+      <description> Installed Linux: Ubuntu ver 20.04. and set it up. Faced some issues with Ubuntu and sorted them while learning about a few terminal commands. Installed asciinema and hugo on the VM. Installed hugo.  </description>
+    </item>
+    
+    <item>
+      <title>Day 2</title>
+      <link>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day2/</link>
+      <pubDate>Tue, 01 Jun 2021 20:54:42 +0530</pubDate>
+      
+      <guid>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day2/</guid>
+      <description> Downloaded hugo which is a website creating tool and experimented on it by creating my first website. Tried downloading asciinema but since Im running windows, was unable to do so. A possible solution as proposed by my mentor was to use a VM with linux. Downloaded Virtualbox, an Oracle VMware and understood how a VM works.  </description>
+    </item>
+    
+    <item>
+      <title>Day 1</title>
+      <link>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day1/</link>
+      <pubDate>Mon, 31 May 2021 20:54:17 +0530</pubDate>
+      
+      <guid>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day1/</guid>
+      <description> Installed Git and learnt about version control systems. Learnt about how to write in markdown. Started a repo and committed a markdown page. Pushed an html file but had an issue with deploying a github page which displayed my markdown page as my html file could be viewed. Fixed this issue by first deleting the html file and then launching a github page.  </description>
+    </item>
+    
+  </channel>
+</rss>

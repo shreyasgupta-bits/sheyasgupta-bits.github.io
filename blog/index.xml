@@ -13,9 +13,8 @@
       <pubDate>Tue, 15 Jun 2021 19:04:32 +0530</pubDate>
       
       <guid>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day14/</guid>
-      <description>Today I started off with downloading ansible.
-I then continued how to build docker containers using the docker/getting-started container.
-Over there they had a .zip file to download in which I created a Dockerfile in the root directory of the folder whose contents were:  Content of Dockerfile   In this the Dockerfile downloaded the node image with 12-alpine tag, yarn was used to download the various dependencies and the CMD directive specifies the commands to be run when the container is run.</description>
+      <description>Today I started off with downloading ansible.  I then continued how to build docker containers using the docker/getting-started container.  Over there they had a .zip file to download in which I created a Dockerfile in the root directory of the folder whose contents were:  Content of Dockerfile   I have to still learn how to embed files cause nothing is working.
+In this the Dockerfile downloaded the node image with 12-alpine tag, yarn was used to download the various dependencies and the CMD directive specifies the commands to be run when the container is run.</description>
     </item>
     
     <item>

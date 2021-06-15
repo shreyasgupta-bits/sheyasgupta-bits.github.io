@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<title>Day 14 | Shreyas Gupta&#39;s PS Journey</title>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.84.0-DEV" />
+<meta name="description" content="my blog">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/css/index.css">
+<link rel="canonical" href="https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day14/">
+<link rel="alternate" type="application/rss+xml" href="" title="Shreyas Gupta&#39;s PS Journey">
+
+<header>
+  
+    <a href="https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/" class="title">Shreyas Gupta&#39;s PS Journey</a>
+  
+  
+    <nav>
+    
+      <a href="/sheyasgupta-bits.github.io/about/">About</a>
+    
+    </nav>
+  
+</header>
+
+<article>
+  <header>
+    <h1>Day 14</h1>
+    <time datetime="2021-06-15T19:04:32&#43;05:30">June 15, 2021</time>
+  </header>
+  <p>Today I started off with downloading ansible.</p>
+<!-- raw HTML omitted -->
+<p>I then continued how to build docker containers using the <code>docker/getting-started</code> container.</p>
+<!-- raw HTML omitted -->
+<p>Over there they had a .zip file to download in which I created a Dockerfile in the root directory of the folder whose contents were:
+<figure><img src="/Dockerfile_content.png"/><figcaption>
+            <h4>Content of Dockerfile</h4>
+        </figcaption>
+</figure>
+<br>
+In this the Dockerfile downloaded the node image with 12-alpine tag, yarn was used to download the various dependencies and the <code>CMD</code> directive specifies the commands to be run when the container is run.</p>
+<p>This is the clip of me building my first container after following the guide.</p>
+<!-- raw HTML omitted -->
+<p>This is me running it</p>
+<!-- raw HTML omitted -->
+<p>This is what I saw on the localhost:3000
+<figure><img src="/first%20docker%20image1.png"/><figcaption>
+            <h4>localhost:3000</h4>
+        </figcaption>
+</figure>
+</p>
+<p>I learned about the <code>docker images</code> command which shows the high level docker images, repsoitory, tags and their size.</p>
+<!-- raw HTML omitted -->
+<p>Similarly I used the <code>docker ps</code> command which shows all the currently running docker containers.</p>
+<!-- raw HTML omitted -->
+<p>The command <code>docker ps -a</code> is used to show all the containers created irrespective of if they&rsquo;re running or stopped.</p>
+<p>I learned about the command <code>docker stop &lt;container id/name&gt;</code> which stops any container running currently.<br>
+And also about the command <code>docker rm &lt;container id/name&gt;</code> which removes any container that&rsquo;s not running.<br>
+We can also accomplish what the above two steps do in a single one by using the <code>docker rm -f &lt;the-container-id&gt;</code> command.</p>
+<!-- raw HTML omitted -->
+<p>Shows me building and running the container again after updating the code and I forgot to stop and remove the previous container that was running the code before I updated it. It shows me then stopping and removing the container that was previoulsy running.</p>
+<p>Another clip of me removing a few containers that have already stopped.</p>
+<!-- raw HTML omitted -->
+<p>I also ran the nginx image in my docker container.<br>
+I first pulled the nginx image and then ran the image by connecting the port 80 of the container to port 8000 of my laptop.</p>
+<!-- raw HTML omitted -->
+<p>I then wanted to understand the difference bwteen using the <code>-d</code> command while running the docker command and understood the meaning of running the container in the background. When not running the <code>-d</code> command, my terminal was engaged and I couldn&rsquo;t use it to do any other work unlike when I used <code>-d</code> in my command.</p>
+<!-- raw HTML omitted -->
+<p>I then wanted to use the docker container running the nginx image to host a site I created locally. I created a local directory named <code>nginx</code> and created two files <code>index.html</code> and <code>about.html</code> and wrote some basic html code.<br>
+I ran the container by linking the local directory where my code was stored to the directory where the container using the nginx image would run my code and deploy my site.</p>
+<!-- raw HTML omitted -->
+<p>This is where I created the directories.</p>
+<!-- raw HTML omitted -->
+<p>This is where I ran the container. The container ran properly but my site was showing a <code>Error 403 : Forbidden</code>.<br>
+It is a config error as told to me by my friend Anupam. So I have to create a Dockerfile as I did with the <code>getting-started</code> project of the tutorial.</p>
+
+</article>
+
+
+
+</html>

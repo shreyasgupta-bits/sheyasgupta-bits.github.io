@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<title>Day30 | Shreyas Gupta&#39;s PS Journey</title>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.84.0-DEV" />
+<meta name="description" content="my blog">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/css/index.css">
+<link rel="canonical" href="https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day30/">
+<link rel="alternate" type="application/rss+xml" href="" title="Shreyas Gupta&#39;s PS Journey">
+
+<header>
+  
+    <a href="https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/" class="title">Shreyas Gupta&#39;s PS Journey</a>
+  
+  
+    <nav>
+    
+      <a href="/sheyasgupta-bits.github.io/about/">About</a>
+    
+    </nav>
+  
+</header>
+
+<article>
+  <header>
+    <h1>Day30</h1>
+    <time datetime="2021-06-29T10:59:22&#43;05:30">June 29, 2021</time>
+  </header>
+  <h3 id="launching-a-virtual-machine-ec2-instance">Launching a Virtual Machine (EC2 Instance)</h3>
+<p>AWS provides a Virtual Machine services known as an EC2 instance which stands for Amazon Elastic Cloud. To launch an instance,</p>
+<ol>
+<li>Open the Amazon EC2 console at <a href="https://console.aws.amazon.com/ec2/">https://console.aws.amazon.com/ec2/</a>.</li>
+<li>On the dashboard, choose <strong>Launch Instance</strong>.</li>
+<li>Select the Amazon Machine Image (AMI), that you want to launch, which includes selecting the instance type where you have multiple options where the instances vary with size of the memory, the virual CPUs available and also the network performance. I went with <code>t2.micro</code> since this is part of the free tier.</li>
+<li>Select <strong>Review and Launch</strong>.</li>
+<li>Review your settings and click on <strong>Launch</strong>.</li>
+</ol>
+<p>You have succesfully launched a Virtual Machine on AWS</p>
+<h3 id="launching-a-vpc">Launching a VPC</h3>
+<ol>
+<li>
+<p>Open the Amazon VPC console at <a href="https://console.aws.amazon.com/vpc/">https://console.aws.amazon.com/vpc/</a>.</p>
+</li>
+<li>
+<p>In the navigation pane, choose Your VPCs, Create VPC.</p>
+</li>
+<li>
+<p>Specify the following VPC details as needed.</p>
+<ul>
+<li>Name tag: Optionally provide a name for your VPC. Doing so creates a tag with a key of Name and the value that you specify.</li>
+<li>IPv4 CIDR block: Specify an IPv4 CIDR block for the VPC. The smallest CIDR block you can specify is /28, and the largest is /16.</li>
+</ul>
+<p>/16 refers to a 16 IPv4 CIDR block (a network with 65,536 private IP addresses) while<br>
+/24 refers to a size /24 IPv4 subnet (a range of 256 private IP addresses)</p>
+<ul>
+<li>(Optional) Add or remove a tag.<br>
+[Add a tag] Choose Add tag and do the following:<br>
+1. For Key, enter the key name.<br>
+2. For Value, enter the key value.<br>
+[Remove a tag] Choose Remove to the right of the tag’s Key and Value.</li>
+</ul>
+</li>
+<li>
+<p>Choose <strong>Create</strong>.</p>
+</li>
+</ol>
+<p>You have successfully launched a VPC on AWS.</p>
+<h3 id="launch-an-instance-into-your-subnet">Launch an instance into your subnet</h3>
+<ol>
+<li>Open the Amazon EC2 console at <a href="https://console.aws.amazon.com/ec2/">https://console.aws.amazon.com/ec2/</a>.</li>
+<li>On the dashboard, choose <strong>Launch Instance</strong>.</li>
+<li>Follow the directions in the wizard as said above for launching an EC2 instance normally. Select an AMI and an instance type and choose Next: <strong>Configure Instance Details</strong> instead of <strong>Review and Launch</strong>.</li>
+<li>On the <strong>Configure Instance Details</strong> page, ensure that you have selected the required VPC in the Network list, then select the subnet in to which to launch the instance. Keep the other default settings on this page.</li>
+<li>Choose Review and Launch when you&rsquo;re done.</li>
+<li>Review your settings and choose <strong>Launch</strong>.</li>
+</ol>
+<p><strong>NOTE:</strong> All of this can also be done through the CLI, and also automated through Terraform.</p>
+
+</article>
+
+
+
+</html>

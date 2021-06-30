@@ -6,7 +6,17 @@
     <description>Recent content on Shreyas Gupta&#39;s PS Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Jun 2021 19:04:32 +0530</lastBuildDate><atom:link href="https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Jun 2021 10:59:22 +0530</lastBuildDate><atom:link href="https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Day30</title>
+      <link>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day30/</link>
+      <pubDate>Tue, 29 Jun 2021 10:59:22 +0530</pubDate>
+      
+      <guid>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day30/</guid>
+      <description>Launching a Virtual Machine (EC2 Instance) AWS provides a Virtual Machine services known as an EC2 instance which stands for Amazon Elastic Cloud. To launch an instance,
+ Open the Amazon EC2 console at https://console.aws.amazon.com/ec2/. On the dashboard, choose Launch Instance. Select the Amazon Machine Image (AMI), that you want to launch, which includes selecting the instance type where you have multiple options where the instances vary with size of the memory, the virual CPUs available and also the network performance.</description>
+    </item>
+    
     <item>
       <title>Day 14</title>
       <link>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day14/</link>
@@ -65,7 +75,7 @@ Explored the GitHub Action documentation.</description>
       
       <guid>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day9/</guid>
       <description>Tried to solve the error 255 I faced during when GitHub Action was building my site.
- GitHub Action Error 1   I tried to fix this by adding the config.toml file to my repo, bu then faced this error.
+I tried to fix this by adding the config.toml file to my repo, bu then faced this error.
  GitHub Action Error 2   To solve this error, I read the documentation of the build from where I got my workflow.</description>
     </item>
     

@@ -6,7 +6,18 @@
     <description>Recent content on Shreyas Gupta&#39;s PS Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Jun 2021 10:59:22 +0530</lastBuildDate><atom:link href="https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Jun 2021 11:00:37 +0530</lastBuildDate><atom:link href="https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Day31</title>
+      <link>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day31/</link>
+      <pubDate>Wed, 30 Jun 2021 11:00:37 +0530</pubDate>
+      
+      <guid>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day31/</guid>
+      <description>Using terraform to launch an AWS instance Terraform which is a popular open source infrastructure automation tool can be used to create and allocate infraturcture and resources easily.
+The basic commands of terraform are terraform init, terraform plan and terraform apply.
+terraform init is used to initialise the directory where you have saved the .tf file. Terraform installs the provider, in our case aws and downloads it in a hidden sub-directory.</description>
+    </item>
+    
     <item>
       <title>Day30</title>
       <link>https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day30/</link>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<title>Day31 | Shreyas Gupta&#39;s PS Journey</title>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.84.0-DEV" />
+<meta name="description" content="my blog">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/css/index.css">
+<link rel="canonical" href="https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/blog/day31/">
+<link rel="alternate" type="application/rss+xml" href="" title="Shreyas Gupta&#39;s PS Journey">
+
+<header>
+  
+    <a href="https://shreyasgupta-bits.github.io/sheyasgupta-bits.github.io/" class="title">Shreyas Gupta&#39;s PS Journey</a>
+  
+  
+    <nav>
+    
+      <a href="/sheyasgupta-bits.github.io/about/">About</a>
+    
+    </nav>
+  
+</header>
+
+<article>
+  <header>
+    <h1>Day31</h1>
+    <time datetime="2021-06-30T11:00:37&#43;05:30">June 30, 2021</time>
+  </header>
+  <h3 id="using-terraform-to-launch-an-aws-instance">Using terraform to launch an AWS instance</h3>
+<p>Terraform which is a popular open source infrastructure automation tool can be used to create and allocate infraturcture and resources easily.</p>
+<p>The basic commands of terraform are <code>terraform init</code>, <code>terraform plan</code> and <code>terraform apply</code>.<br>
+<code>terraform init</code> is used to initialise the directory where you have saved the <code>.tf</code> file. Terraform installs the provider, in our case <code>aws</code> and downloads it in a hidden sub-directory.<br>
+<code>terraform plan</code> prints out an execution plan which is used to go over what changes, additon and deletions your code is going to cause to match your infrastructure to your configuration, and gives you a chance to confirm that everything is according to how you want.
+<code>terraform apply</code> runs your <code>.tf file</code> and applies the changes.
+<script src="https://asciinema.org/a/423293.js" id="asciicast-423293" async></script></p>
+<h3 id="terminating-an-instance-using-terraform">Terminating an instance using Terraform</h3>
+<p>Terraform uses a command <code>terraform destroy</code> to delete or terminate an instance that you have created. But say that you have created 2 or more instances using terraform, <strong>this command used as is will terminate all of them</strong>. To delete only one or a select few, we have to enter and distinguish using a few parameters.<br>
+Another was of deleting an instance is to remove the code block from your terrform config file that builds the instance and then using the command <code>terraform apply</code>, Terraform will see that the config file doesn&rsquo;t have any resources to be allocated whereas your infrastructre does and will promptly terminate that instance.
+<script src="https://asciinema.org/a/423294.js" id="asciicast-423294" async></script></p>
+
+</article>
+
+
+
+</html>
